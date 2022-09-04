@@ -11,7 +11,6 @@ describe('Login', () => {
     loginPage.go()
     loginPage.form(user)
     loginPage.submit()
-
     mapPage.loggedUser(user.name)
   })
 
